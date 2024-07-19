@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: spring-boot-app
-        image: cetyl/ultimate-cicd:replaceImageTag
+        image: cetyl/ultimate-cicd:3
         ports:
         - containerPort: 8080
